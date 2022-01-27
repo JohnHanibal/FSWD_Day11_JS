@@ -2,3 +2,7 @@ let a = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$rend
 
 console.log(a.split("$").join(" "));
 
+console.log(a.replaceAll("$"," "));
+
+console.log(a.replace(/\$/g," "));
+
